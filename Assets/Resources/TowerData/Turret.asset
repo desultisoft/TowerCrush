@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2b40d5134f9eb742a1d2d5fc23c318c, type: 3}
+  m_Name: Turret
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: bb5173c5dc1fbb24187ce64f18e60741, type: 3}
+  upgrades:
+  - {fileID: 1440273321785334020, guid: d811dbd3cb364c743a6b5601fdc4eba6, type: 3}
+  - {fileID: 1440273321785334020, guid: 841a0699776d1e44bb3bce1ce3fbfd2d, type: 3}
+  reloadTime: 0.4
+  cost: 100

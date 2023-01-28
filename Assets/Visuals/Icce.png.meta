@@ -1,0 +1,960 @@
+fileFormatVersion: 2
+guid: f869d6b6d64126c41a74abf449ecae7f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4338491545831998694
+    second: Icce_0
+  - first:
+      213: -4245890284928276932
+    second: Icce_1
+  - first:
+      213: -7794244945120936623
+    second: Icce_2
+  - first:
+      213: 552599858082882588
+    second: Icce_3
+  - first:
+      213: 330676788266067000
+    second: Icce_4
+  - first:
+      213: -4135986074903466324
+    second: Icce_5
+  - first:
+      213: -8990312720733170818
+    second: Icce_6
+  - first:
+      213: 8926956612176140303
+    second: Icce_7
+  - first:
+      213: -8032687474473691683
+    second: Icce_8
+  - first:
+      213: 5185947643119824118
+    second: Icce_9
+  - first:
+      213: 6642076504868849093
+    second: Icce_10
+  - first:
+      213: -1766774361453670071
+    second: Icce_11
+  - first:
+      213: -7256994860115750832
+    second: Icce_12
+  - first:
+      213: 9190233722802742078
+    second: Icce_13
+  - first:
+      213: -3506023068068278518
+    second: Icce_14
+  - first:
+      213: -1263282338456584543
+    second: Icce_15
+  - first:
+      213: -6883634367465396868
+    second: Icce_16
+  - first:
+      213: -6333059482726577930
+    second: Icce_17
+  - first:
+      213: -5311500472883902300
+    second: Icce_18
+  - first:
+      213: -5588512403917306566
+    second: Icce_19
+  - first:
+      213: 860976171234155159
+    second: Icce_20
+  - first:
+      213: -2686580552229490564
+    second: Icce_21
+  - first:
+      213: -3792933183627957857
+    second: Icce_22
+  - first:
+      213: -8058021358286157715
+    second: Icce_23
+  - first:
+      213: -7215185199527864086
+    second: Icce_24
+  - first:
+      213: 7223225576062439552
+    second: Icce_25
+  - first:
+      213: 6081723528451263934
+    second: Icce_26
+  - first:
+      213: -4542515241481650499
+    second: Icce_27
+  - first:
+      213: 8009213561734459896
+    second: Icce_28
+  - first:
+      213: 7990085735933857874
+    second: Icce_29
+  - first:
+      213: -2163075218360002944
+    second: Icce_30
+  - first:
+      213: 7998984007885448601
+    second: Icce_31
+  - first:
+      213: -8623342011875221624
+    second: Icce_32
+  - first:
+      213: -6332841806361378458
+    second: Icce_33
+  - first:
+      213: 3274330356434852317
+    second: Icce_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Icce_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1106.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bf5a5ece49ac3c0800000000000000
+      internalID: -4338491545831998694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1106.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36619318419315c0800000000000000
+      internalID: -4245890284928276932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_2
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1106.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15dbea1a48745d390800000000000000
+      internalID: -7794244945120936623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_3
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1106.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1426f3a4aa3ba700800000000000000
+      internalID: 552599858082882588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_4
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1106.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834e01479ccc69400800000000000000
+      internalID: 330676788266067000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 922.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caeaa6904960a96c0800000000000000
+      internalID: -4135986074903466324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_6
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 922.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e731605963efb3380800000000000000
+      internalID: -8990312720733170818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_7
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 922.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f085512edbbe2eb70800000000000000
+      internalID: 8926956612176140303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_8
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 922.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5144c0d49268090800000000000000
+      internalID: -8032687474473691683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_9
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 922.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc6ee3b7ef28f740800000000000000
+      internalID: 5185947643119824118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 738.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c50da3d3656d2c50800000000000000
+      internalID: 6642076504868849093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_11
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 738.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941594b34182b77e0800000000000000
+      internalID: -1766774361453670071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_12
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 738.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05017f9bf99f94b90800000000000000
+      internalID: -7256994860115750832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_13
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 738.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33297201e44a8f70800000000000000
+      internalID: 9190233722802742078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_14
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 738.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f0775689a185fc0800000000000000
+      internalID: -3506023068068278518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 554.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae3545086be77ee0800000000000000
+      internalID: -1263282338456584543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_16
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 554.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75ed8b830b6870a0800000000000000
+      internalID: -6883634367465396868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_17
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 554.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8c9a654f37c18a0800000000000000
+      internalID: -6333059482726577930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_18
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 554.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a88f612672c946b0800000000000000
+      internalID: -5311500472883902300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_19
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 554.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3505ade39d9172b0800000000000000
+      internalID: -5588512403917306566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 370.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79adc7e144dc2fb00800000000000000
+      internalID: 860976171234155159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_21
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 370.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7073ebc83957bad0800000000000000
+      internalID: -2686580552229490564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_22
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 370.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9960158d5bcc5bc0800000000000000
+      internalID: -3792933183627957857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_23
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 370.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68c7d294482c2090800000000000000
+      internalID: -8058021358286157715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_24
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 370.5714
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae85c79e9438edb90800000000000000
+      internalID: -7215185199527864086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 186.57143
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080d7b1246d0e3460800000000000000
+      internalID: 7223225576062439552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_26
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 186.57143
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd0977a35f966450800000000000000
+      internalID: 6081723528451263934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_27
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 186.57143
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe30b4847eb5f0c0800000000000000
+      internalID: -4542515241481650499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_28
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 186.57143
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f17c6dbc41762f60800000000000000
+      internalID: 8009213561734459896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_29
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 186.57143
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250d04fb4ac72ee60800000000000000
+      internalID: 7990085735933857874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.5714264
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0869333ac863bf1e0800000000000000
+      internalID: -2163075218360002944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_31
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 2.5714264
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995ea022399120f60800000000000000
+      internalID: 7998984007885448601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_32
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 2.5714264
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f997de02cb35880800000000000000
+      internalID: -8623342011875221624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_33
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 2.5714264
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66146111ee93d18a0800000000000000
+      internalID: -6332841806361378458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icce_34
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 2.5714264
+        width: 187.4
+        height: 184.42857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9d39c6c12c07d20800000000000000
+      internalID: 3274330356434852317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
