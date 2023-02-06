@@ -16,9 +16,9 @@ TagManager:
   - Enemy
   - Path
   - EnemyAndTower
-  - Angel
-  - 
-  - 
+  - Angle
+  - EnemyDamage
+  - AngelDetect
   - 
   - 
   - 

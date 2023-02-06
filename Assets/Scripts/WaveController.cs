@@ -41,7 +41,7 @@ public class WaveController : MonoBehaviour
     public Image enemyImageOne;
     public Image enemyImageTwo;
     private IEnumerator summonWaves;
-    public static event Action<Enemy> onSpawnEnemy = delegate { };
+
     public void Awake()
     {
         poolDictionary = new Dictionary<string, Queue<Enemy>>();
@@ -102,7 +102,7 @@ public class WaveController : MonoBehaviour
         {
             Enemy obj = Instantiate(prefab);
 
-            onSpawnEnemy.Invoke(obj);
+            EventManager.instance.OnEnemySpawn(obj);
 
             obj.name = prefab.name;
             obj.transform.parent = transform;

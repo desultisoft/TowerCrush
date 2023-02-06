@@ -15,10 +15,6 @@ public class ProgressBar : MonoBehaviour
     private float DefaultSpeed = 1f;
     [SerializeField]
     private Gradient ColorGradient;
-    [SerializeField]
-    private UnityEvent<float> OnProgress;
-    [SerializeField]
-    private UnityEvent OnCompleted;
 
     private Coroutine AnimationCoroutine;
 
@@ -80,14 +76,14 @@ public class ProgressBar : MonoBehaviour
 
             ProgressImage.color = ColorGradient.Evaluate(1 - ProgressImage.fillAmount);
 
-            OnProgress?.Invoke(ProgressImage.fillAmount);
+            //OnProgress?.Invoke(ProgressImage.fillAmount);
             yield return null;
         }
 
         ProgressImage.fillAmount = Progress;
         ProgressImage.color = ColorGradient.Evaluate(1 - ProgressImage.fillAmount);
 
-        OnProgress?.Invoke(Progress);
-        OnCompleted?.Invoke();
+        //OnProgress?.Invoke(Progress);
+        //OnCompleted?.Invoke();
     }
 }

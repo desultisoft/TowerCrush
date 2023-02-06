@@ -14,14 +14,10 @@ public class Enemy : MonoBehaviour, IPooledObject
     public Collider2D col;
     public AudioSource deathSound;
     public Animator anim;
-
     public AngelDetector detector;
-
     public HealthController healthController { private set; get; }
     public FollowPath pathController { private set; get; }
-
     public delegate IEnumerator DeathHandler();
-    public static event DeathHandler onDeath;
 
     public void Awake()
     {

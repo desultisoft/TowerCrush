@@ -8,15 +8,8 @@ public class HealthBarManager : MonoBehaviour
     public ProgressBar prefab;
     public RectTransform parent;
 
-    public void OnEnable()
-    {
-        WaveController.onSpawnEnemy += SetupHealthBar;
-    }
-    public void OnDisable()
-    {
-        WaveController.onSpawnEnemy -= SetupHealthBar;
-    }
-
+    public void OnEnable() => EventManager.instance.onEnemySpawn += SetupHealthBar;
+    public void OnDisable() => EventManager.instance.onEnemySpawn -= SetupHealthBar;
 
     private void SetupHealthBar(Enemy obj)
     {

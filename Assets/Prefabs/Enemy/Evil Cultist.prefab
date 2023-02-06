@@ -114,7 +114,7 @@ GameObject:
   - component: {fileID: 4554779408157774688}
   - component: {fileID: 8306951851452955435}
   - component: {fileID: 7954080772190740115}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: DamageHitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -341,7 +341,7 @@ GameObject:
   - component: {fileID: 5266207178265739187}
   - component: {fileID: 8096837620259206987}
   - component: {fileID: 2388371768802607491}
-  m_Layer: 11
+  m_Layer: 13
   m_Name: AngelDetector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
