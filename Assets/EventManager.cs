@@ -1,23 +1,18 @@
 using System;
 using UnityEngine;
 
-public class Status
-{
-
-}
-
 public class EventManager : MonoBehaviour
 {
     public static EventManager instance;
 
     public delegate void enemyAction(Enemy e);
-    public event enemyAction onEnemyDie;
-    public event enemyAction onEnemySpawn;
+    public event enemyAction onEnemyDie = delegate { };
+    public event enemyAction onEnemySpawn = delegate { };
 
     public delegate void enemyBuffChange(Enemy e, Status s, bool isActive);
-    public event enemyBuffChange onEnemyStatusChange;
+    public event enemyBuffChange onEnemyStatusChange = delegate { };
 
-    public void Start()
+    public void Awake()
     {
         if (instance)
         {

@@ -28,13 +28,6 @@ public class FollowPath
     private float maxSpeed;
     private float currentSpeed;
 
-    public IEnumerator Slow(float duration, float reduction)
-    {
-        currentSpeed = Mathf.Clamp(currentSpeed - reduction, 0.1f, maxSpeed);
-        yield return new WaitForSeconds(duration);
-        currentSpeed = Mathf.Clamp(currentSpeed + reduction, 0.1f, maxSpeed);
-    }
-
     public FollowPath(Transform toMove, float speed)
     {
         this.toMove = toMove;
@@ -47,6 +40,11 @@ public class FollowPath
     {
         currentSpeed = maxSpeed;
         currentPathNumber = 0;
+    }
+
+    public void ChangeSpeed(float speedChange)
+    {
+        currentSpeed = currentSpeed + speedChange; 
     }
 
     public void Tick()
