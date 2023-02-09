@@ -10,8 +10,8 @@ public class TowerButton : MonoBehaviour
 
     public void Init(Tower tower)
     {
-        this.representedTower = tower;
-        image.sprite = this.representedTower.data.icon;
+        representedTower = tower;
+        image.sprite = representedTower.data.icon;
         cost.text = (tower.data.cost).ToString();
     }
 

@@ -5,7 +5,7 @@ public class BurnBuff : Buff<BurnBuffData>
 {
     public override void Apply()
     {
-        target.StartCoroutine(BurnCoroutine());
+        targetForBuff.StartCoroutine(BurnCoroutine());
     }
 
     public IEnumerator BurnCoroutine()
@@ -14,7 +14,7 @@ public class BurnBuff : Buff<BurnBuffData>
         while (Time.time - startTime <= data.duration)
         {
             yield return new WaitForSeconds(data.tickTime);
-            //target.DealDamage(data.damagePerTick);
+            targetForBuff.healthController.TakeDamage(data.damagePerTick);
         }
     }
 }

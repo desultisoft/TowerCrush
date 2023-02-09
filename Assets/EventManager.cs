@@ -21,6 +21,7 @@ public class EventManager : MonoBehaviour
         }
         else
         {
+            Debug.Log("Setting up EventManager instance");
             instance = this;
         }
     }

@@ -43,7 +43,7 @@ public abstract class ClickerTower : SpellTower
         }
         else
         {
-            currentReloadTimer -= cooldownSpeed*Time.deltaTime;
+            currentReloadTimer -= reloadSpeed*Time.deltaTime;
         }
 
         

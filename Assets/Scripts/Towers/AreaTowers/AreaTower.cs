@@ -24,7 +24,7 @@ public abstract class AreaTower : Tower
     public virtual void Update()
     {
         checkTime -= Time.deltaTime;
-        currentReloadTimer -= Time.deltaTime * cooldownSpeed;
+        currentReloadTimer -= Time.deltaTime * reloadSpeed;
         
         if(checkTime <= 0 && currentReloadTimer <=0)
         {

@@ -2,15 +2,14 @@
 using UnityEngine;
 
 [Serializable]
-public class BuffFactory<DataType, BuffType> : BuffFactory 
-    where BuffType : Buff<DataType>, new()
+public class BuffFactory<DataType, BuffType> : BuffFactory where BuffType : Buff<DataType>, new()
 {
     [SerializeField]
     public DataType data;
 
     public override Buff GetBuff(Enemy target)
     {
-        return new BuffType { data = this.data, target = target };
+        return new BuffType { data = this.data, targetForBuff = target };
     }
 }
 

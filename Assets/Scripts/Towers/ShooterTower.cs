@@ -18,7 +18,7 @@ public class ShooterTower : Tower
 
     public void Update()
     {
-        currentReloadTimer -= cooldownSpeed*Time.deltaTime;
+        currentReloadTimer -= reloadSpeed*Time.deltaTime;
 
         if (eDetector.targetEnemy)
         {

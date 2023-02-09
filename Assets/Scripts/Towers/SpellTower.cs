@@ -4,7 +4,7 @@ public abstract class SpellTower : Tower
 {
     public virtual void Update()
     {
-        currentReloadTimer -= cooldownSpeed *Time.deltaTime;
+        currentReloadTimer -= reloadSpeed *Time.deltaTime;
     }
 
     public virtual void CastSpell()

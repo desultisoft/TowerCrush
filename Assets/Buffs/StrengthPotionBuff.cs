@@ -6,7 +6,7 @@ public class StrengthPotionBuff : Buff<StrengthPotionBuffData>
     public override void Apply()
     {
         //target.AddStrength(data.strengthToAdd);
-        target.StartCoroutine(UnapplicationCoroutine());
+        targetForBuff.StartCoroutine(UnapplicationCoroutine());
     }
 
     public IEnumerator UnapplicationCoroutine()
