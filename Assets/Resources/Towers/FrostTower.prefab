@@ -143,10 +143,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: 1b81e36f9997bef4eb1eb1431d7fd297, type: 2}
   tDetector: {fileID: 4686037818488777434}
-  cooldownSpeed: 1
+  reloadSpeed: 1
   maxReloadTime: 4
   range: 3
-  damage: 20
+  damage: 3
   effectTime: 1
   checkTime: 0.1
   maxCheckTime: 1
@@ -155,8 +155,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   anim: {fileID: 3731871173557202802}
-  slowPercent: 50
-  duration: 3
+  appliedDebuff: {fileID: 11400000, guid: 7e5c84d3a73e6b2489d4b293931289a2, type: 2}
 --- !u!1 &7793003088532756603
 GameObject:
   m_ObjectHideFlags: 0

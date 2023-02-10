@@ -32,7 +32,7 @@ public class ProgressBar : MonoBehaviour
 
     public void HandleStatusChange(bool alive)
     {
-        gameObject.SetActive(alive);
+        gameObject.SetActive(false);
 
         if (alive)
         {
@@ -48,6 +48,8 @@ public class ProgressBar : MonoBehaviour
 
     public void SetProgress(float Progress, float Speed)
     {
+        gameObject.SetActive(true);
+
         if (Progress < 0 || Progress > 1)
         {
             Debug.LogWarning($"Invalid progress passed, expected value is between 0 and 1, got {Progress}. Clamping.");

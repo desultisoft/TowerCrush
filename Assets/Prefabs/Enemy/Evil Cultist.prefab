@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1391606839}
   - component: {fileID: 1391606841}
-  - component: {fileID: 1391606840}
+  - component: {fileID: 1379751896345191182}
+  - component: {fileID: 4571047573493741249}
   m_Layer: 8
   m_Name: Display
   m_TagString: Untagged
@@ -52,7 +53,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!212 &1391606840
+--- !u!212 &1379751896345191182
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ac571e224c49553418887f663a0c4e82, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -91,18 +92,34 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1075537703
   m_SortingLayer: 3
-  m_SortingOrder: 3
+  m_SortingOrder: 0
   m_Sprite: {fileID: 6451874919060340958, guid: 8c372df503ec0c34d90e977133b791ff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.7066667, y: 0.85333335}
+  m_Size: {x: 7.8125, y: 7.8125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4571047573493741249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391606838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee158225ee1e59f4791627785501d950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shaderTypes: 0
+  normalStrength: 5
+  normalSmoothing: 1
+  computingNormal: 0
 --- !u!1 &2012104495955418080
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   health: 18
-  rend: {fileID: 1391606840}
+  rend: {fileID: 1379751896345191182}
   col: {fileID: 8336972307282912240}
   deathSound: {fileID: 4509255380916554458}
   anim: {fileID: 1391606841}

@@ -5,6 +5,7 @@ using System;
 
 public class Enemy : MonoBehaviour, IPooledObject
 {
+
     [Header("Stats")]
     public float speed;
     public float health;
@@ -25,16 +26,18 @@ public class Enemy : MonoBehaviour, IPooledObject
 
         pathController = new FollowPath(transform, speed);
         healthController = new HealthController(health);
+
+        rend.material = new Material(rend.material);
     }
 
     public void OnEnable()
     {
-        healthController.onStatusChange += HandleStatusChange;
+        healthController.onLifeStatusChange += HandleStatusChange;
     }
 
     public void OnDisable()
     {
-        healthController.onStatusChange -= HandleStatusChange;
+        healthController.onLifeStatusChange -= HandleStatusChange;
     }
 
     public void HandleStatusChange(bool isAlive)
@@ -49,6 +52,7 @@ public class Enemy : MonoBehaviour, IPooledObject
 
     private IEnumerator HandleDeath()
     {
+        anim.speed = 1;
         deathSound.Play();
         anim.SetBool("Alive", false);
 

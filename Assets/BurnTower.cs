@@ -10,8 +10,8 @@ public class BurnTower : AreaTower
     {
         if (affectedEnemy && affectedEnemy.healthController.isAlive)
         {
-            affectedEnemy.healthController.TakeDamage(damage);
             appliedDebuff.GetBuff(affectedEnemy).Apply();
+            affectedEnemy.healthController.TakeDamage(damage);
         }
     }
 

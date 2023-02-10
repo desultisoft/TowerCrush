@@ -8,7 +8,7 @@ public class HealthController
     private float maxHealth;
     public bool isAlive => (health > 0);
     public event Action onTakeDamage = delegate { };
-    public event Action<bool> onStatusChange = delegate { };
+    public event Action<bool> onLifeStatusChange = delegate { };
     public event Action<float> onHealthPercentReached = delegate { };
 
     public HealthController(float totalHealth)
@@ -21,7 +21,7 @@ public class HealthController
     public void Reset()
     {
         health = maxHealth;
-        onStatusChange.Invoke(true);
+        onLifeStatusChange.Invoke(true);
     }
 
     public void TakeDamage(float amountDamage)
@@ -34,7 +34,7 @@ public class HealthController
             if (health == 0)
             {
                 health = -1;
-                onStatusChange.Invoke(false);
+                onLifeStatusChange.Invoke(false);
             }
         }
     }

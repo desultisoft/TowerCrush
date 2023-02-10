@@ -49,6 +49,8 @@ public class FollowPath
 
     public void Tick()
     {
+        if (currentSpeed <= 0) return;
+
         if (targetPosition == null)
         {
             direction = Vector3.right;

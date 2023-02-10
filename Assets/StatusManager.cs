@@ -37,13 +37,13 @@ public class StatusManager : MonoBehaviour
     }
     public void OnEnable()
     {
-        //EventManager.instance.onEnemySpawn += SetupStatus;
-        //EventManager.instance.onEnemyStatusChange += HandleStatusChange;
+        EventManager.instance.onEnemySpawn += SetupStatus;
+        EventManager.instance.onEnemyStatusChange += HandleStatusChange;
     }
     public void OnDisable()
     {
-        //EventManager.instance.onEnemySpawn -= SetupStatus;
-        //EventManager.instance.onEnemyStatusChange -= HandleStatusChange;
+        EventManager.instance.onEnemySpawn -= SetupStatus;
+        EventManager.instance.onEnemyStatusChange -= HandleStatusChange;
     }
 
 

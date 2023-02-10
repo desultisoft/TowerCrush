@@ -19,8 +19,8 @@ public class HealthBarManager : MonoBehaviour
         {
             follow.SetTarget(obj.transform);
         }
-
+        
         obj.healthController.onHealthPercentReached += bar.SetProgress;
-        obj.healthController.onStatusChange += bar.HandleStatusChange;
+        obj.healthController.onLifeStatusChange += bar.HandleStatusChange;
     }
 }
