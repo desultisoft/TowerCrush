@@ -4,13 +4,18 @@ using UnityEngine;
 
 public abstract class AreaTower : Tower
 {
+    [Header("Damage Stats")]
     public int damage = 18;
-    public float effectTime = 1f;
+    public int maxEnemiesHit = 25;
+
+    [Header("Check Time")]
     public float checkTime = 0.1f;
     public float maxCheckTime = 1f;
-    public int maxEnemiesHit = 25;
-    public LayerMask enemyMask;
+    
 
+    [Header("Required Fields")]
+    public Animator anim;
+    public LayerMask enemyMask;
     private Enemy targetEnemy;
     private Collider2D[] hitEnemies;
     private int hitCount;
@@ -53,10 +58,13 @@ public abstract class AreaTower : Tower
             checkTime = maxCheckTime;
         }
     }
-    public abstract void visualEffect();
-    public virtual void NoEnemyFound() { }
-    public virtual void AffectEnemy(Enemy affectedEnemy)
+    public virtual void visualEffect()
     {
-        affectedEnemy.healthController.TakeDamage(damage);
+        anim.SetTrigger("Effect");
+    }
+    public virtual void NoEnemyFound() { }
+    public virtual void AffectEnemy(Enemy e)
+    {
+        e.healthController.TakeDamage(damage);
     }
 }

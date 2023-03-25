@@ -26,7 +26,7 @@ public class MoneyManager : MonoBehaviour
     {
         instance = this;
         moneyText.text = "" + _money;
-        money = 1000;
+        money = 10000;
     }
 
     public void SpendMoney(int amount)

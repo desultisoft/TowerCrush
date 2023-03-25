@@ -116,7 +116,7 @@ public class TowerManager : MonoBehaviour
 
     public void CreateButtons()
     {
-        GameObject[] towers = Resources.LoadAll<GameObject>("Towers");
+        GameObject[] towers = Resources.LoadAll<GameObject>("Towers/Finished");
         foreach (GameObject towerPrefab in towers)
         {
             Tower t = towerPrefab.GetComponent<Tower>();

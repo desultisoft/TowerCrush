@@ -7,9 +7,10 @@ public class HealthController
     private float health;
     private float maxHealth;
     public bool isAlive => (health > 0);
-    public event Action onTakeDamage = delegate { };
     public event Action<bool> onLifeStatusChange = delegate { };
     public event Action<float> onHealthPercentReached = delegate { };
+    [HideInInspector]
+    public float damageMultiplier = 1;
 
     public HealthController(float totalHealth)
     {
@@ -28,8 +29,8 @@ public class HealthController
     {
         if(isAlive)
         {
-            onTakeDamage.Invoke();
-            health = Mathf.Clamp(health - amountDamage, 0, maxHealth);
+            
+            health = Mathf.Clamp(health - (amountDamage * damageMultiplier), 0, maxHealth);
             onHealthPercentReached.Invoke(health / maxHealth);
             if (health == 0)
             {

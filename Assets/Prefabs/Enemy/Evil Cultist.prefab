@@ -244,8 +244,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a36bbcd9a026c2e44ae0d541ab3f1ad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  health: 18
+  speed: 2.5
+  health: 50
   rend: {fileID: 1379751896345191182}
   col: {fileID: 8336972307282912240}
   deathSound: {fileID: 4509255380916554458}

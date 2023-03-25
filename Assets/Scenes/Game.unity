@@ -747,7 +747,7 @@ GameObject:
   - component: {fileID: 215237643}
   - component: {fileID: 215237642}
   m_Layer: 5
-  m_Name: Money
+  m_Name: MoneyDisplay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36916,7 +36916,7 @@ GameObject:
   - component: {fileID: 1936698549}
   - component: {fileID: 1936698548}
   m_Layer: 5
-  m_Name: Health
+  m_Name: HealthDisplay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

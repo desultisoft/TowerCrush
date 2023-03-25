@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: a0231b6e6cf5cac4f9072282dfda9bf2, type: 3}
   upgrades:
-  - {fileID: 5322563538245817878, guid: a8a0a6a0f1be211439b5bc8b86b87f72, type: 3}
-  - {fileID: 1694073254067955424, guid: 8d8abdfa3617acf41a65590e425d292d, type: 3}
-  - {fileID: 3013131085324782152, guid: 848a3d754d65bea4ba3100f33113acdf, type: 3}
+  - {fileID: 8454944169941013350, guid: 848a3d754d65bea4ba3100f33113acdf, type: 3}
+  - {fileID: 520119641794889237, guid: a8a0a6a0f1be211439b5bc8b86b87f72, type: 3}
+  - {fileID: 5957759779985533688, guid: 8d8abdfa3617acf41a65590e425d292d, type: 3}
   cost: 300
